@@ -1,0 +1,31 @@
+Mobile Hero - The Rival
+
+-Mesh 
+    > Eye Sockets 
+    > Mouth Cavity
+    > Eye Balls
+    > Teeth
+    > Tongue
+    > mouth inner
+    > Separated Vest Mesh
+    > Separated Fedora Mesh
+    > Separated Body Mesh
+    > Verts: 1,956 /Faces: 1,860/ triangles: 3,658
+
+-Animations
+    > 26 free animations to use with this model or retarget to others
+    > Setup to Humanoid Avatar
+
+-Shape Keys 
+
+*Shape keys (morph targets/ blend shapes) are added to create facial expressions that you can use to create animations. You can do this manually.
+in Unity (Animation Window), but you can use software like Papagayo that guesses the expression based on the audio you play and generates automatic lip sync.
+
+Rival Mesh
+
+    > basic facial expressions ( Basis = neutral, smile, serious, rage, happy, sad)
+    > eye motion shapes (eye left closed, eye right closed, look left, look right, look up, look down)
+    > VRCHAT compatible Visemes (Phonemes - Note, also can be used to generate Papagayo LipSync)
+
+Vest Mesh
+    > shapekeys to simulate wind effect  ( Basis = neutral, wind from left, wind from right, wind from bellow)
