@@ -1,0 +1,1848 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a7375f37a1ffc945b478bd41f115dab, type: 3}
+  m_Name: CombinedResults_combinedSession
+  m_EditorClassIdentifier: 
+  _showCombinedMaterials: 0
+  _showCombinedMeshes: 0
+  _showLogs: 0
+  _logs: ' ERROR: [SuperCombiner] Please, specify a folder under Assets/
+
+    ERROR:
+    [SuperCombiner] Could not find combinedSession_0_0 in _uniqueCombinedMeshId,
+    data may has been lost, try to combine again before saving.
+
+    ERROR: [SuperCombiner]
+    Could not find combinedSession_0_1 in _uniqueCombinedMeshId, data may has been
+    lost, try to combine again before saving.
+
+    ERROR: [SuperCombiner] Could not
+    find combinedSession_0_2 in _uniqueCombinedMeshId, data may has been lost, try
+    to combine again before saving.
+
+    ERROR: [SuperCombiner] Could not find combinedSession_0_3
+    in _uniqueCombinedMeshId, data may has been lost, try to combine again before
+    saving.
+
+    ERROR: [SuperCombiner] Could not find combinedSession_0_4 in _uniqueCombinedMeshId,
+    data may has been lost, try to combine again before saving.
+
+    ERROR: [SuperCombiner]
+    Could not find combinedSession_0_5 in _uniqueCombinedMeshId, data may has been
+    lost, try to combine again before saving.
+
+    ERROR: [SuperCombiner] Could not
+    find combinedSession_0_6 in _uniqueCombinedMeshId, data may has been lost, try
+    to combine again before saving.
+
+    DEBUG: [SuperCombiner] Meshes saved in ''Assets//Meshes/''
+
+    DEBUG:
+    [SuperCombiner] Prefabs saved in ''Assets//Prefabs/''
+
+'
+  _combinedMaterials:
+  - material: {fileID: 0}
+    uvs:
+    - serializedVersion: 2
+      x: 0.23730469
+      y: 0.47460938
+      width: 0.118652344
+      height: 0.118652344
+    - serializedVersion: 2
+      x: 0.23730469
+      y: 0.5932617
+      width: 0.118652344
+      height: 0.118652344
+    - serializedVersion: 2
+      x: 0.23730469
+      y: 0.71191406
+      width: 0.118652344
+      height: 0.118652344
+    - serializedVersion: 2
+      x: 0.23730469
+      y: 0.8305664
+      width: 0.118652344
+      height: 0.118652344
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.23730469
+      height: 0.23730469
+    - serializedVersion: 2
+      x: 0.23730469
+      y: 0
+      width: 0.23730469
+      height: 0.23730469
+    - serializedVersion: 2
+      x: 0.47460938
+      y: 0
+      width: 0.23730469
+      height: 0.23730469
+    - serializedVersion: 2
+      x: 0.71191406
+      y: 0
+      width: 0.23730469
+      height: 0.23730469
+    - serializedVersion: 2
+      x: 0
+      y: 0.23730469
+      width: 0.23730469
+      height: 0.23730469
+    - serializedVersion: 2
+      x: 0
+      y: 0.47460938
+      width: 0.23730469
+      height: 0.23730469
+    - serializedVersion: 2
+      x: 0
+      y: 0.71191406
+      width: 0.23730469
+      height: 0.23730469
+    - serializedVersion: 2
+      x: 0.23730469
+      y: 0.23730469
+      width: 0.23730469
+      height: 0.23730469
+    - serializedVersion: 2
+      x: 0.47460938
+      y: 0.23730469
+      width: 0.23730469
+      height: 0.23730469
+    - serializedVersion: 2
+      x: 0.71191406
+      y: 0.23730469
+      width: 0.23730469
+      height: 0.23730469
+    uvs2: []
+    scaleFactors:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    meshUVBounds:
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    isOriginalMaterial: 0
+    displayedIndex: 0
+    showCombinedMaterial: 0
+    showUVs: 0
+    showMeshUVBounds: 0
+  _meshResults:
+  - names:
+    - Alien_Rock_13
+    - Alien_Rock_12
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_04
+    - Alien_Rock_08
+    - Alien_Rock_07
+    - Alien_Rock_05
+    - Alien_Rock_00
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_02
+    - Alien_Rock_13
+    - Alien_Rock_12
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_04
+    - Alien_Rock_08
+    - Alien_Rock_07
+    - Alien_Rock_05
+    - Alien_Rock_00
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_02
+    - Alien_Rock_13
+    - Alien_Rock_12
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_04
+    - Alien_Rock_08
+    - Alien_Rock_07
+    - Alien_Rock_05
+    - Alien_Rock_00
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_02
+    - Alien_Rock_20
+    - Alien_Rock_19
+    - Alien_Rock_18
+    - Alien_Rock_15
+    - Alien_Rock_14
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_07
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_02
+    - Alien_Rock_08
+    - Alien_Rock_05
+    - Alien_Rock_04
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_12
+    - Alien_Rock_17
+    - Alien_Rock_13
+    - Alien_Rock_16
+    - Alien_Rock_13
+    - Alien_Rock_12
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_04
+    - Alien_Rock_08
+    - Alien_Rock_07
+    - Alien_Rock_05
+    - Alien_Rock_00
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_02
+    - Alien_Rock_13
+    - Alien_Rock_12
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_04
+    - Alien_Rock_08
+    - Alien_Rock_07
+    - Alien_Rock_05
+    - Alien_Rock_00
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_02
+    - Alien_Rock_13
+    - Alien_Rock_12
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_04
+    - Alien_Rock_08
+    - Alien_Rock_07
+    - Alien_Rock_05
+    - Alien_Rock_00
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_02
+    - Alien_Rock_20
+    - Alien_Rock_19
+    - Alien_Rock_18
+    - Alien_Rock_15
+    - Alien_Rock_14
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_07
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_02
+    - Alien_Rock_08
+    - Alien_Rock_05
+    - Alien_Rock_04
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_12
+    - Alien_Rock_17
+    - Alien_Rock_13
+    - Alien_Rock_16
+    - Alien_Rock_20
+    - Alien_Rock_19
+    - Alien_Rock_18
+    - Alien_Rock_15
+    - Alien_Rock_14
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_07
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_02
+    - Alien_Rock_08
+    - Alien_Rock_05
+    - Alien_Rock_04
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_12
+    - Alien_Rock_17
+    - Alien_Rock_13
+    - Alien_Rock_16
+    - Alien_Rock_13
+    - Alien_Rock_12
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_04
+    - Alien_Rock_08
+    - Alien_Rock_07
+    - Alien_Rock_05
+    - Alien_Rock_00
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_02
+    - Alien_Rock_20
+    - Alien_Rock_19
+    - Alien_Rock_18
+    - Alien_Rock_15
+    - Alien_Rock_14
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_07
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_02
+    - Alien_Rock_08
+    - Alien_Rock_05
+    - Alien_Rock_04
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_12
+    - Alien_Rock_17
+    - Alien_Rock_13
+    - Alien_Rock_16
+    - Alien_Rock_20
+    - Alien_Rock_19
+    - Alien_Rock_18
+    - Alien_Rock_15
+    - Alien_Rock_14
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_07
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_02
+    - Alien_Rock_08
+    - Alien_Rock_05
+    - Alien_Rock_04
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_12
+    - Alien_Rock_17
+    - Alien_Rock_13
+    - Alien_Rock_16
+    - Alien_Rock_13
+    - Alien_Rock_12
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_04
+    - Alien_Rock_08
+    - Alien_Rock_07
+    - Alien_Rock_05
+    - Alien_Rock_00
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_02
+    - Alien_Rock_13
+    - Alien_Rock_12
+    - Alien_Rock_11
+    - Alien_Rock_10
+    - Alien_Rock_09
+    - Alien_Rock_06
+    - Alien_Rock_04
+    - Alien_Rock_08
+    - Alien_Rock_07
+    - Alien_Rock_05
+    - Alien_Rock_00
+    - Alien_Rock_03
+    - Alien_Rock_01
+    - Alien_Rock_02
+    - RockPipe004
+    - RockPipe003
+    instanceIds: eeaafeffdcaafeffdaaafefff2aafeffecaafeffeaaafeffe8aafeffd8aafeffdeaafeffe0aafeffe4aafefff0aafeffe2aafeffe6aafeff38c1feff26c1feff24c1feff3cc1feff36c1feff34c1feff32c1feff22c1feff28c1feff2ac1feff2ec1feff3ac1feff2cc1feff30c1feff66e5feff6ee5feff70e5feff74e5feff6ae5feff6ce5feff58e5feff68e5feff62e5feff72e5feff60e5feff5ee5feff64e5feff5ce5feff8ab9feff7eb9feff72b9feff7ab9feff7cb9feff90b9feff70b9feff6ab9feff80b9feff6eb9feff86b9feff84b9feff78b9feff92b9feff8cb9feff88b9feff6cb9feff8eb9feff74b9feff76b9feffbadcfeffc2dcfeffc4dcfeffc8dcfeffbedcfeffc0dcfeffacdcfeffbcdcfeffb6dcfeffc6dcfeffb4dcfeffb2dcfeffb8dcfeffb0dcfeff48e0feff50e0feff52e0feff56e0feff4ce0feff4ee0feff3ae0feff4ae0feff44e0feff54e0feff42e0feff40e0feff46e0feff3ee0feff40c0feff48c0feff4ac0feff4ec0feff44c0feff46c0feff32c0feff42c0feff3cc0feff4cc0feff3ac0feff38c0feff3ec0feff36c0feffe6c7feffdac7feffcec7feffd6c7feffd8c7feffecc7feffccc7feffc6c7feffdcc7feffcac7feffe2c7feffe0c7feffd4c7feffeec7feffe8c7feffe4c7feffc8c7feffeac7feffd0c7feffd2c7feff24c2feff18c2feff0cc2feff14c2feff16c2feff2ac2feff0ac2feff04c2feff1ac2feff08c2feff20c2feff1ec2feff12c2feff2cc2feff26c2feff22c2feff06c2feff28c2feff0ec2feff10c2feff98c5feffa0c5feffa2c5feffa6c5feff9cc5feff9ec5feff8ac5feff9ac5feff94c5feffa4c5feff92c5feff90c5feff96c5feff8ec5feff8addfeff7eddfeff72ddfeff7addfeff7cddfeff90ddfeff70ddfeff6addfeff80ddfeff6eddfeff86ddfeff84ddfeff78ddfeff92ddfeff8cddfeff88ddfeff6cddfeff8eddfeff74ddfeff76ddfeff46d1feff3ad1feff2ed1feff36d1feff38d1feff4cd1feff2cd1feff26d1feff3cd1feff2ad1feff42d1feff40d1feff34d1feff4ed1feff48d1feff44d1feff28d1feff4ad1feff30d1feff32d1feff8ae2feff92e2feff94e2feff98e2feff8ee2feff90e2feff7ce2feff8ce2feff86e2feff96e2feff84e2feff82e2feff88e2feff80e2feff1ec7feff0cc7feff0ac7feff22c7feff1cc7feff1ac7feff18c7feff08c7feff0ec7feff10c7feff14c7feff20c7feff12c7feff16c7feffa0a2feffa8d0feff
+    indexes:
+    - firstVertexIndex: 77
+      vertexCount: 77
+      firstTriangleIndex: 312
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 145
+      vertexCount: 68
+      firstTriangleIndex: 618
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 222
+      vertexCount: 77
+      firstTriangleIndex: 930
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 299
+      vertexCount: 77
+      firstTriangleIndex: 1242
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 376
+      vertexCount: 77
+      firstTriangleIndex: 1554
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 439
+      vertexCount: 63
+      firstTriangleIndex: 1830
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 507
+      vertexCount: 68
+      firstTriangleIndex: 2136
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 572
+      vertexCount: 65
+      firstTriangleIndex: 2406
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 641
+      vertexCount: 69
+      firstTriangleIndex: 2670
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 704
+      vertexCount: 63
+      firstTriangleIndex: 2946
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 781
+      vertexCount: 77
+      firstTriangleIndex: 3258
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 880
+      vertexCount: 99
+      firstTriangleIndex: 3648
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 955
+      vertexCount: 75
+      firstTriangleIndex: 3984
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 1053
+      vertexCount: 98
+      firstTriangleIndex: 4416
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 1130
+      vertexCount: 77
+      firstTriangleIndex: 4728
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 1198
+      vertexCount: 68
+      firstTriangleIndex: 5034
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 1275
+      vertexCount: 77
+      firstTriangleIndex: 5346
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 1352
+      vertexCount: 77
+      firstTriangleIndex: 5658
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 1429
+      vertexCount: 77
+      firstTriangleIndex: 5970
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 1492
+      vertexCount: 63
+      firstTriangleIndex: 6246
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 1560
+      vertexCount: 68
+      firstTriangleIndex: 6552
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 1625
+      vertexCount: 65
+      firstTriangleIndex: 6822
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 1694
+      vertexCount: 69
+      firstTriangleIndex: 7086
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 1757
+      vertexCount: 63
+      firstTriangleIndex: 7362
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 1834
+      vertexCount: 77
+      firstTriangleIndex: 7674
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 1933
+      vertexCount: 99
+      firstTriangleIndex: 8064
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2008
+      vertexCount: 75
+      firstTriangleIndex: 8400
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2106
+      vertexCount: 98
+      firstTriangleIndex: 8832
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2183
+      vertexCount: 77
+      firstTriangleIndex: 9144
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2251
+      vertexCount: 68
+      firstTriangleIndex: 9450
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2328
+      vertexCount: 77
+      firstTriangleIndex: 9762
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2405
+      vertexCount: 77
+      firstTriangleIndex: 10074
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2482
+      vertexCount: 77
+      firstTriangleIndex: 10386
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2545
+      vertexCount: 63
+      firstTriangleIndex: 10662
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2613
+      vertexCount: 68
+      firstTriangleIndex: 10968
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2678
+      vertexCount: 65
+      firstTriangleIndex: 11238
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2747
+      vertexCount: 69
+      firstTriangleIndex: 11502
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2810
+      vertexCount: 63
+      firstTriangleIndex: 11778
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2887
+      vertexCount: 77
+      firstTriangleIndex: 12090
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 2986
+      vertexCount: 99
+      firstTriangleIndex: 12480
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3061
+      vertexCount: 75
+      firstTriangleIndex: 12816
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3159
+      vertexCount: 98
+      firstTriangleIndex: 13248
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3234
+      vertexCount: 75
+      firstTriangleIndex: 13584
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3309
+      vertexCount: 75
+      firstTriangleIndex: 13920
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3377
+      vertexCount: 68
+      firstTriangleIndex: 14226
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3440
+      vertexCount: 63
+      firstTriangleIndex: 14502
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3508
+      vertexCount: 68
+      firstTriangleIndex: 14808
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3573
+      vertexCount: 65
+      firstTriangleIndex: 15114
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3638
+      vertexCount: 65
+      firstTriangleIndex: 15420
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3703
+      vertexCount: 65
+      firstTriangleIndex: 15726
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3768
+      vertexCount: 65
+      firstTriangleIndex: 15996
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3833
+      vertexCount: 65
+      firstTriangleIndex: 16302
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3931
+      vertexCount: 98
+      firstTriangleIndex: 16734
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3996
+      vertexCount: 65
+      firstTriangleIndex: 17004
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4059
+      vertexCount: 63
+      firstTriangleIndex: 17280
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4127
+      vertexCount: 68
+      firstTriangleIndex: 17586
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4226
+      vertexCount: 99
+      firstTriangleIndex: 17976
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4301
+      vertexCount: 75
+      firstTriangleIndex: 18312
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4400
+      vertexCount: 99
+      firstTriangleIndex: 18702
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4469
+      vertexCount: 69
+      firstTriangleIndex: 18966
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4537
+      vertexCount: 68
+      firstTriangleIndex: 19272
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4606
+      vertexCount: 69
+      firstTriangleIndex: 19536
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4683
+      vertexCount: 77
+      firstTriangleIndex: 19848
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4751
+      vertexCount: 68
+      firstTriangleIndex: 20154
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4828
+      vertexCount: 77
+      firstTriangleIndex: 20466
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4905
+      vertexCount: 77
+      firstTriangleIndex: 20778
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4982
+      vertexCount: 77
+      firstTriangleIndex: 21090
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5045
+      vertexCount: 63
+      firstTriangleIndex: 21366
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5113
+      vertexCount: 68
+      firstTriangleIndex: 21672
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5178
+      vertexCount: 65
+      firstTriangleIndex: 21942
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5247
+      vertexCount: 69
+      firstTriangleIndex: 22206
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5310
+      vertexCount: 63
+      firstTriangleIndex: 22482
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5387
+      vertexCount: 77
+      firstTriangleIndex: 22794
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5486
+      vertexCount: 99
+      firstTriangleIndex: 23184
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5561
+      vertexCount: 75
+      firstTriangleIndex: 23520
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5659
+      vertexCount: 98
+      firstTriangleIndex: 23952
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5736
+      vertexCount: 77
+      firstTriangleIndex: 24264
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5804
+      vertexCount: 68
+      firstTriangleIndex: 24570
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5881
+      vertexCount: 77
+      firstTriangleIndex: 24882
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5958
+      vertexCount: 77
+      firstTriangleIndex: 25194
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 6035
+      vertexCount: 77
+      firstTriangleIndex: 25506
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 6098
+      vertexCount: 63
+      firstTriangleIndex: 25782
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 6166
+      vertexCount: 68
+      firstTriangleIndex: 26088
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 6231
+      vertexCount: 65
+      firstTriangleIndex: 26358
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 6300
+      vertexCount: 69
+      firstTriangleIndex: 26622
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 6363
+      vertexCount: 63
+      firstTriangleIndex: 26898
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 6440
+      vertexCount: 77
+      firstTriangleIndex: 27210
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 6539
+      vertexCount: 99
+      firstTriangleIndex: 27600
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 6614
+      vertexCount: 75
+      firstTriangleIndex: 27936
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 6712
+      vertexCount: 98
+      firstTriangleIndex: 28368
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 6789
+      vertexCount: 77
+      firstTriangleIndex: 28680
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 6857
+      vertexCount: 68
+      firstTriangleIndex: 28986
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 6934
+      vertexCount: 77
+      firstTriangleIndex: 29298
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7011
+      vertexCount: 77
+      firstTriangleIndex: 29610
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7088
+      vertexCount: 77
+      firstTriangleIndex: 29922
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7151
+      vertexCount: 63
+      firstTriangleIndex: 30198
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7219
+      vertexCount: 68
+      firstTriangleIndex: 30504
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7284
+      vertexCount: 65
+      firstTriangleIndex: 30774
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7353
+      vertexCount: 69
+      firstTriangleIndex: 31038
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7416
+      vertexCount: 63
+      firstTriangleIndex: 31314
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7493
+      vertexCount: 77
+      firstTriangleIndex: 31626
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7592
+      vertexCount: 99
+      firstTriangleIndex: 32016
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7667
+      vertexCount: 75
+      firstTriangleIndex: 32352
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7765
+      vertexCount: 98
+      firstTriangleIndex: 32784
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7840
+      vertexCount: 75
+      firstTriangleIndex: 33120
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7915
+      vertexCount: 75
+      firstTriangleIndex: 33456
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7983
+      vertexCount: 68
+      firstTriangleIndex: 33762
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8046
+      vertexCount: 63
+      firstTriangleIndex: 34038
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8114
+      vertexCount: 68
+      firstTriangleIndex: 34344
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8179
+      vertexCount: 65
+      firstTriangleIndex: 34650
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8244
+      vertexCount: 65
+      firstTriangleIndex: 34956
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8309
+      vertexCount: 65
+      firstTriangleIndex: 35262
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8374
+      vertexCount: 65
+      firstTriangleIndex: 35532
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8439
+      vertexCount: 65
+      firstTriangleIndex: 35838
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8537
+      vertexCount: 98
+      firstTriangleIndex: 36270
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8602
+      vertexCount: 65
+      firstTriangleIndex: 36540
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8665
+      vertexCount: 63
+      firstTriangleIndex: 36816
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8733
+      vertexCount: 68
+      firstTriangleIndex: 37122
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8832
+      vertexCount: 99
+      firstTriangleIndex: 37512
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8907
+      vertexCount: 75
+      firstTriangleIndex: 37848
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9006
+      vertexCount: 99
+      firstTriangleIndex: 38238
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9075
+      vertexCount: 69
+      firstTriangleIndex: 38502
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9143
+      vertexCount: 68
+      firstTriangleIndex: 38808
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9212
+      vertexCount: 69
+      firstTriangleIndex: 39072
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9287
+      vertexCount: 75
+      firstTriangleIndex: 39408
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9362
+      vertexCount: 75
+      firstTriangleIndex: 39744
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9430
+      vertexCount: 68
+      firstTriangleIndex: 40050
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9493
+      vertexCount: 63
+      firstTriangleIndex: 40326
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9561
+      vertexCount: 68
+      firstTriangleIndex: 40632
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9626
+      vertexCount: 65
+      firstTriangleIndex: 40938
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9691
+      vertexCount: 65
+      firstTriangleIndex: 41244
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9756
+      vertexCount: 65
+      firstTriangleIndex: 41550
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9821
+      vertexCount: 65
+      firstTriangleIndex: 41820
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9886
+      vertexCount: 65
+      firstTriangleIndex: 42126
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 9984
+      vertexCount: 98
+      firstTriangleIndex: 42558
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10049
+      vertexCount: 65
+      firstTriangleIndex: 42828
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10112
+      vertexCount: 63
+      firstTriangleIndex: 43104
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10180
+      vertexCount: 68
+      firstTriangleIndex: 43410
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10279
+      vertexCount: 99
+      firstTriangleIndex: 43800
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10354
+      vertexCount: 75
+      firstTriangleIndex: 44136
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10453
+      vertexCount: 99
+      firstTriangleIndex: 44526
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10522
+      vertexCount: 69
+      firstTriangleIndex: 44790
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10590
+      vertexCount: 68
+      firstTriangleIndex: 45096
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10659
+      vertexCount: 69
+      firstTriangleIndex: 45360
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10736
+      vertexCount: 77
+      firstTriangleIndex: 45672
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10804
+      vertexCount: 68
+      firstTriangleIndex: 45978
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10881
+      vertexCount: 77
+      firstTriangleIndex: 46290
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10958
+      vertexCount: 77
+      firstTriangleIndex: 46602
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11035
+      vertexCount: 77
+      firstTriangleIndex: 46914
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11098
+      vertexCount: 63
+      firstTriangleIndex: 47190
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11166
+      vertexCount: 68
+      firstTriangleIndex: 47496
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11231
+      vertexCount: 65
+      firstTriangleIndex: 47766
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11300
+      vertexCount: 69
+      firstTriangleIndex: 48030
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11363
+      vertexCount: 63
+      firstTriangleIndex: 48306
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11440
+      vertexCount: 77
+      firstTriangleIndex: 48618
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11539
+      vertexCount: 99
+      firstTriangleIndex: 49008
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11614
+      vertexCount: 75
+      firstTriangleIndex: 49344
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11712
+      vertexCount: 98
+      firstTriangleIndex: 49776
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11787
+      vertexCount: 75
+      firstTriangleIndex: 50112
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11862
+      vertexCount: 75
+      firstTriangleIndex: 50448
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11930
+      vertexCount: 68
+      firstTriangleIndex: 50754
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 11993
+      vertexCount: 63
+      firstTriangleIndex: 51030
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12061
+      vertexCount: 68
+      firstTriangleIndex: 51336
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12126
+      vertexCount: 65
+      firstTriangleIndex: 51642
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12191
+      vertexCount: 65
+      firstTriangleIndex: 51948
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12256
+      vertexCount: 65
+      firstTriangleIndex: 52254
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12321
+      vertexCount: 65
+      firstTriangleIndex: 52524
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12386
+      vertexCount: 65
+      firstTriangleIndex: 52830
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12484
+      vertexCount: 98
+      firstTriangleIndex: 53262
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12549
+      vertexCount: 65
+      firstTriangleIndex: 53532
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12612
+      vertexCount: 63
+      firstTriangleIndex: 53808
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12680
+      vertexCount: 68
+      firstTriangleIndex: 54114
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12779
+      vertexCount: 99
+      firstTriangleIndex: 54504
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12854
+      vertexCount: 75
+      firstTriangleIndex: 54840
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12953
+      vertexCount: 99
+      firstTriangleIndex: 55230
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13022
+      vertexCount: 69
+      firstTriangleIndex: 55494
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13090
+      vertexCount: 68
+      firstTriangleIndex: 55800
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13159
+      vertexCount: 69
+      firstTriangleIndex: 56064
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13234
+      vertexCount: 75
+      firstTriangleIndex: 56400
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13309
+      vertexCount: 75
+      firstTriangleIndex: 56736
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13377
+      vertexCount: 68
+      firstTriangleIndex: 57042
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13440
+      vertexCount: 63
+      firstTriangleIndex: 57318
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13508
+      vertexCount: 68
+      firstTriangleIndex: 57624
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13573
+      vertexCount: 65
+      firstTriangleIndex: 57930
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13638
+      vertexCount: 65
+      firstTriangleIndex: 58236
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13703
+      vertexCount: 65
+      firstTriangleIndex: 58542
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13768
+      vertexCount: 65
+      firstTriangleIndex: 58812
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13833
+      vertexCount: 65
+      firstTriangleIndex: 59118
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13931
+      vertexCount: 98
+      firstTriangleIndex: 59550
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 13996
+      vertexCount: 65
+      firstTriangleIndex: 59820
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 14059
+      vertexCount: 63
+      firstTriangleIndex: 60096
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 14127
+      vertexCount: 68
+      firstTriangleIndex: 60402
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 14226
+      vertexCount: 99
+      firstTriangleIndex: 60792
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 14301
+      vertexCount: 75
+      firstTriangleIndex: 61128
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 14400
+      vertexCount: 99
+      firstTriangleIndex: 61518
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 14469
+      vertexCount: 69
+      firstTriangleIndex: 61782
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 14537
+      vertexCount: 68
+      firstTriangleIndex: 62088
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 14606
+      vertexCount: 69
+      firstTriangleIndex: 62352
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 14683
+      vertexCount: 77
+      firstTriangleIndex: 62664
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 14751
+      vertexCount: 68
+      firstTriangleIndex: 62970
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 14828
+      vertexCount: 77
+      firstTriangleIndex: 63282
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 14905
+      vertexCount: 77
+      firstTriangleIndex: 63594
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 14982
+      vertexCount: 77
+      firstTriangleIndex: 63906
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15045
+      vertexCount: 63
+      firstTriangleIndex: 64182
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15113
+      vertexCount: 68
+      firstTriangleIndex: 64488
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15178
+      vertexCount: 65
+      firstTriangleIndex: 64758
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15247
+      vertexCount: 69
+      firstTriangleIndex: 65022
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15310
+      vertexCount: 63
+      firstTriangleIndex: 65298
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15387
+      vertexCount: 77
+      firstTriangleIndex: 65610
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15486
+      vertexCount: 99
+      firstTriangleIndex: 66000
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15561
+      vertexCount: 75
+      firstTriangleIndex: 66336
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15659
+      vertexCount: 98
+      firstTriangleIndex: 66768
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15736
+      vertexCount: 77
+      firstTriangleIndex: 67080
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15804
+      vertexCount: 68
+      firstTriangleIndex: 67386
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15881
+      vertexCount: 77
+      firstTriangleIndex: 67698
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15958
+      vertexCount: 77
+      firstTriangleIndex: 68010
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 16035
+      vertexCount: 77
+      firstTriangleIndex: 68322
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 16098
+      vertexCount: 63
+      firstTriangleIndex: 68598
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 16166
+      vertexCount: 68
+      firstTriangleIndex: 68904
+      triangleCount: 306
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 16231
+      vertexCount: 65
+      firstTriangleIndex: 69174
+      triangleCount: 270
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 16300
+      vertexCount: 69
+      firstTriangleIndex: 69438
+      triangleCount: 264
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 16363
+      vertexCount: 63
+      firstTriangleIndex: 69714
+      triangleCount: 276
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 16440
+      vertexCount: 77
+      firstTriangleIndex: 70026
+      triangleCount: 312
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 16539
+      vertexCount: 99
+      firstTriangleIndex: 70416
+      triangleCount: 390
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 16614
+      vertexCount: 75
+      firstTriangleIndex: 70752
+      triangleCount: 336
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 16712
+      vertexCount: 98
+      firstTriangleIndex: 71184
+      triangleCount: 432
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 18309
+      vertexCount: 1597
+      firstTriangleIndex: 80172
+      triangleCount: 8988
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 19892
+      vertexCount: 1583
+      firstTriangleIndex: 89160
+      triangleCount: 8988
+      showCombinedInstanceIndex: 0
+    showMeshCombined: 0
+  - names:
+    - RockPipe002
+    - RockPipe1
+    - RockPipe004
+    - BigPieceD1
+    - BigPieceE1
+    - BigPieces_columns2
+    - BigPieces_columns2
+    - BigPieceE1
+    instanceIds: 00acfeff60a0feff56d1feff60a6feff7cc0feff2caffeff78c2feff34c5feff
+    indexes:
+    - firstVertexIndex: 1584
+      vertexCount: 1584
+      firstTriangleIndex: 8988
+      triangleCount: 8988
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 3168
+      vertexCount: 1584
+      firstTriangleIndex: 17976
+      triangleCount: 8988
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4765
+      vertexCount: 1597
+      firstTriangleIndex: 26964
+      triangleCount: 8988
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7500
+      vertexCount: 2735
+      firstTriangleIndex: 41946
+      triangleCount: 14982
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10173
+      vertexCount: 2673
+      firstTriangleIndex: 56985
+      triangleCount: 15039
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12886
+      vertexCount: 2713
+      firstTriangleIndex: 72075
+      triangleCount: 15090
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15599
+      vertexCount: 2713
+      firstTriangleIndex: 87165
+      triangleCount: 15090
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 18272
+      vertexCount: 2673
+      firstTriangleIndex: 102204
+      triangleCount: 15039
+      showCombinedInstanceIndex: 0
+    showMeshCombined: 0
+  - names:
+    - BigPieceD1
+    - BigPieces_columns2
+    - BigPieceD1
+    - BigPieceE1
+    - BigPieceB1
+    - BigPieces_columns2
+    instanceIds: 9ee1feff88a9feff58dbfeff5cbdfeff8aaefeffacccfeff
+    indexes:
+    - firstVertexIndex: 2735
+      vertexCount: 2735
+      firstTriangleIndex: 14982
+      triangleCount: 14982
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5448
+      vertexCount: 2713
+      firstTriangleIndex: 30072
+      triangleCount: 15090
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8183
+      vertexCount: 2735
+      firstTriangleIndex: 45054
+      triangleCount: 14982
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10856
+      vertexCount: 2673
+      firstTriangleIndex: 60093
+      triangleCount: 15039
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 16208
+      vertexCount: 5352
+      firstTriangleIndex: 90123
+      triangleCount: 30030
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 18921
+      vertexCount: 2713
+      firstTriangleIndex: 105213
+      triangleCount: 15090
+      showCombinedInstanceIndex: 0
+    showMeshCombined: 0
+  - names:
+    - BigPieceD1
+    - BigPieceE1
+    - BigPieces_columns2
+    - BigPieceE1
+    - BigPieceA1
+    - BigPieceD1
+    instanceIds: 8ac1feff1aa9feff44c4fefff8a6feffeaa6feff94d2feff
+    indexes:
+    - firstVertexIndex: 2735
+      vertexCount: 2735
+      firstTriangleIndex: 14982
+      triangleCount: 14982
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5408
+      vertexCount: 2673
+      firstTriangleIndex: 30021
+      triangleCount: 15039
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 8121
+      vertexCount: 2713
+      firstTriangleIndex: 45111
+      triangleCount: 15090
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10794
+      vertexCount: 2673
+      firstTriangleIndex: 60150
+      triangleCount: 15039
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 16020
+      vertexCount: 5226
+      firstTriangleIndex: 90144
+      triangleCount: 29994
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 18755
+      vertexCount: 2735
+      firstTriangleIndex: 105126
+      triangleCount: 14982
+      showCombinedInstanceIndex: 0
+    showMeshCombined: 0
+  - names:
+    - BigPieceD1
+    - Alien_Platform2
+    - Alien_Platform2
+    - Alien_Platform1
+    - Alien_Platform3
+    - AlienTerrain_Platforms
+    - AlienTerrain_Platforms
+    instanceIds: d6d7feff341402002a0f02008c1202003213020032a9feffd4dcfeff
+    indexes:
+    - firstVertexIndex: 2735
+      vertexCount: 2735
+      firstTriangleIndex: 14982
+      triangleCount: 14982
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5352
+      vertexCount: 2617
+      firstTriangleIndex: 29970
+      triangleCount: 14988
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7969
+      vertexCount: 2617
+      firstTriangleIndex: 44958
+      triangleCount: 14988
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10104
+      vertexCount: 2135
+      firstTriangleIndex: 56952
+      triangleCount: 11994
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12706
+      vertexCount: 2602
+      firstTriangleIndex: 71940
+      triangleCount: 14988
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15327
+      vertexCount: 2621
+      firstTriangleIndex: 86928
+      triangleCount: 14988
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 17948
+      vertexCount: 2621
+      firstTriangleIndex: 101916
+      triangleCount: 14988
+      showCombinedInstanceIndex: 0
+    showMeshCombined: 0
+  - names:
+    - AlienTerrain_Platforms
+    - AlienTerrain_Platforms
+    - AlienTerrain_Platforms
+    - AlienTerrain_Platforms
+    - Alien_Platform04
+    - Alien_Platform04
+    - Alien_Platform04
+    - Alien_Platform04
+    instanceIds: 3ab3feff04dcfeff64dafeffbc150200e0150200b4160200820b02006c0d0200
+    indexes:
+    - firstVertexIndex: 2621
+      vertexCount: 2621
+      firstTriangleIndex: 14988
+      triangleCount: 14988
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 5242
+      vertexCount: 2621
+      firstTriangleIndex: 29976
+      triangleCount: 14988
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7863
+      vertexCount: 2621
+      firstTriangleIndex: 44964
+      triangleCount: 14988
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 10484
+      vertexCount: 2621
+      firstTriangleIndex: 59952
+      triangleCount: 14988
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 12792
+      vertexCount: 2308
+      firstTriangleIndex: 73122
+      triangleCount: 13170
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 15100
+      vertexCount: 2308
+      firstTriangleIndex: 86292
+      triangleCount: 13170
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 17408
+      vertexCount: 2308
+      firstTriangleIndex: 99462
+      triangleCount: 13170
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 19716
+      vertexCount: 2308
+      firstTriangleIndex: 112632
+      triangleCount: 13170
+      showCombinedInstanceIndex: 0
+    showMeshCombined: 0
+  - names:
+    - Alien_Platform04
+    - AlienTerrain_Platforms
+    - AlienTerrain_Platforms
+    instanceIds: cc130200340f020048b5feff
+    indexes:
+    - firstVertexIndex: 2308
+      vertexCount: 2308
+      firstTriangleIndex: 13170
+      triangleCount: 13170
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 4929
+      vertexCount: 2621
+      firstTriangleIndex: 28158
+      triangleCount: 14988
+      showCombinedInstanceIndex: 0
+    - firstVertexIndex: 7550
+      vertexCount: 2621
+      firstTriangleIndex: 43146
+      triangleCount: 14988
+      showCombinedInstanceIndex: 0
+    showMeshCombined: 0
+  _materialCombinedCount: 14
+  _combinedMaterialCount: 1
+  _meshesCombinedCount: 266
+  _skinnedMeshesCombinedCount: 0
+  _totalVertexCount: 183362
+  _subMeshCount: 0
