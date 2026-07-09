@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Stair
+  - Climb
+  - Fly
+  - Jugador
+  - Fire
+  - Piruleta
+  - Municion
+  - Limite
+  - Ground_Stone
+  - Enemy
+  - CamaraJugador
+  - TargetBase
+  - Ubicacion
+  - Target
+  - AI
+  - Interactive
+  - NoTraspasing
+  - PatrolAndroide1
+  - PatrolAndroide2
+  - Plataforma
+  - Antorcha
+  - Mano
+  - Explosivo
+  - Animal
+  - Ascensor
+  - Gema
+  - Conector
+  - EsferaRoja
+  - Nivel
+  - ZonaRevive
+  - ManoG
+  - No Ambient
+  - Tren
+  - Anegro
+  - Dedo
+  - ZonaReset
+  - SnapZone
+  - SnapConector
+  - CambioColor
+  - CamaraMarketing
+  - spikes
+  - PartEnemy
+  - EnemyCabeza
+  - Water
+  - FxTemporaire
+  - EnemyIndio
+  - Anchor
+  - SamplesInfoPanel
+  - SF_Door
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Animal
+  - Water
+  - UI
+  - Enemy
+  - Player
+  - Item
+  - Escenario
+  - Minimos
+  - DecoCol
+  - Sombrero
+  - Ragdoll
+  - Anegro
+  - Conector1
+  - Conector2
+  - Conector3
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  - Light Layer 1 - Light Layer 1 - Light Layer 1
+  - Light Layer 2 - Light Layer 2 - Light Layer 2
+  - Light Layer 3 - Light Layer 3 - Light Layer 3
+  - Light Layer 4 - Light Layer 4 - Light Layer 4
+  - Light Layer 5 - Light Layer 5 - Light Layer 5
+  - Light Layer 6 - Light Layer 6 - Light Layer 6
+  - Light Layer 7 - Light Layer 7 - Light Layer 7
