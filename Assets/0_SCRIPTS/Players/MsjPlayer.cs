@@ -6,8 +6,6 @@ public class MsjPlayer : NetworkBehaviour
 {
     public GameObject GameManager;
 
-    [SerializeField]
-    private GameObject videoContinuara;
     [Header("MSJS")]
     public int msj;
     [SerializeField]
@@ -42,12 +40,6 @@ public class MsjPlayer : NetworkBehaviour
         if (!GameManager)
             GameManager = GameObject.Find("GameManager");
         //textExplosivosAct.text = GameManager.GetComponent<JuegoManager>().ExplosivosAct.ToString(); 
-
-        if (GameManager.GetComponent<JuegoManager>().ActContinuara)
-        {
-            videoContinuara.SetActive(true);
-        }
-
 
         msj = GameManager.GetComponent<JuegoManager>().MsjServerToPlayers;
 

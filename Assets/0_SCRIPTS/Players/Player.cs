@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class Player : NetworkBehaviour
 {
+    public GameObject camaraServer;
     [Header("GLOBALES")]
     [SyncVar(hook = nameof(SetName))]
     public string Name = "NoName";
@@ -111,6 +112,14 @@ public class Player : NetworkBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ControlCamaras manager = FindObjectOfType<ControlCamaras>();
+
+        if (manager != null)
+        {
+            // Pasa el GameObject que tiene el componente Camera y el tag "CamaraJugador"
+            manager.RegistrarCamara(camaraServer);
+        }
+
         if (!GameManager)
             GameManager = GameObject.Find("GameManager");
 

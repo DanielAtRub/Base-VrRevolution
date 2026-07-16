@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Diagnostics;
+using System.Collections; // Necesario para usar Corrutinas
 
 public class StopPartida2 : MonoBehaviour
 {
@@ -12,12 +13,33 @@ public class StopPartida2 : MonoBehaviour
     [SerializeField]
     private float tiempoExit;
 
-    // Start is called before the first frame update
     void Start()
-    { 
+    {
     }
 
-    public void ParaPartida() //LAMADO DESDE BOTON STOP
+    // NUEVO MÉTODO: Llama a este método para sacar al servidor en 150 segundos
+    public void ApagarServidorEn150Segundos()
+    {
+        UnityEngine.Debug.Log("Iniciando secuencia: el servidor se cerrará en 150 segundos.");
+        StartCoroutine(RutinaApagarServidor(150f));
+    }
+
+    // Corrutina que maneja la espera
+    private IEnumerator RutinaApagarServidor(float tiempoEspera)
+    {
+        yield return new WaitForSeconds(tiempoEspera);
+
+        // Ejecutamos la misma lógica que tenías pensada para la salida
+        if (GameManager != null)
+        {
+            GameManager.GetComponent<JuegoManager>().TiempoPartida = 0; //VRARENA
+            UnityEngine.Debug.Log("--JUEGO CERRADO--");
+        }
+
+        LanzaLauncher();
+    }
+
+    public void ParaPartida() //LLAMADO DESDE BOTON STOP
     {
         /*
         //PARA PARTIDA
@@ -27,11 +49,12 @@ public class StopPartida2 : MonoBehaviour
         */
 
         GameManager.GetComponent<JuegoManager>().TiempoPartida = 0; //VRARENA
+
+        // Si prefieres usar tu sistema original con el tiempo del Inspector:
         Invoke("LanzaLauncher", tiempoExit);
-        //LanzaLauncher(); //QUITA EL JUEGO DIRECTAMENTE
     }
 
-    public void LanzaLauncher() 
+    public void LanzaLauncher()
     {
         if (!trig)
         {
@@ -48,10 +71,10 @@ public class StopPartida2 : MonoBehaviour
 
     void quit()
     {
-        #if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
-        #else
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
             Application.Quit();
-        #endif
+#endif
     }
 }

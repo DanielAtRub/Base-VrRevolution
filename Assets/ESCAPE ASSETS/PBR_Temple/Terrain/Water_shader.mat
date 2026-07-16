@@ -11,6 +11,7 @@ Material:
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
   - _DETAIL_MULX2
+  - _EMISSION
   - _METALLICGLOSSMAP
   - _NORMALMAP
   m_InvalidKeywords: []
@@ -143,7 +144,9 @@ Material:
     - _DstBlend: 0
     - _Fresnel_power: 0.793
     - _Gloss: 0.4511278
+    - _GlossMapScale: 1
     - _Glossiness: 1
+    - _GlossyReflections: 1
     - _GlowIntensity: 1.2
     - _Metallic: 0
     - _Mode: 0
@@ -155,6 +158,8 @@ Material:
     - _Refraction_power: 0.552
     - _Roughness: 0.199
     - _Shininess: 0.078125
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _Water_transparency: 1

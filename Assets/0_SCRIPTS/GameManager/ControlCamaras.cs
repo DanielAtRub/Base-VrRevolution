@@ -1,26 +1,40 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic; // IMPORTANTE para usar List<>
 using UnityEngine;
 
 public class ControlCamaras : MonoBehaviour
 {
-    private GameObject[] CamarasJugadores;
+    // Cambiamos el Array por una Lista para poder añadir jugadores en tiempo real
+    public List<GameObject> CamarasJugadores = new List<GameObject>();
 
     private bool status, status2;
 
-    // Start is called before the first frame update
     void Start()
-    { 
+    {
     }
 
-    // Update is called once per frame
+    public void RegistrarCamara(GameObject nuevaCamara)
+    {
+        if (!CamarasJugadores.Contains(nuevaCamara))
+        {
+            CamarasJugadores.Add(nuevaCamara);
+
+            // Si las cámaras están apagadas (status = false), apagamos esta nueva también para que no moleste al jugador
+            nuevaCamara.SetActive(status);
+            if (nuevaCamara.GetComponent<Camera>() != null)
+                nuevaCamara.GetComponent<Camera>().enabled = status;
+        }
+    }
+
     void Update()
     {
-        //ACT/DES EL FULLSCREEN DE LAS CAMARAS DE LOS PLAYERS
-        if (status) {
-            for (int i = 0; i < CamarasJugadores.Length; i++)
+        if (status)
+        {
+            for (int i = 0; i < CamarasJugadores.Count; i++)
             {
-                if (Input.GetButtonDown("Fire2") && 
+                // Seguridad: comprobar si el jugador se ha desconectado/destruido
+                if (CamarasJugadores[i] == null) continue;
+
+                if (Input.GetButtonDown("Fire2") &&
                     CamarasJugadores[i].GetComponent<Camera>().pixelRect.Contains(Input.mousePosition) &&
                     !status2)
                 {
@@ -37,44 +51,41 @@ public class ControlCamaras : MonoBehaviour
                     ActCamaraJugadores();
                 }
             }
-        }    
+        }
     }
 
     public void ActCamaraJugadores()
     {
         status = true;
 
-        CamarasJugadores = GameObject.FindGameObjectsWithTag("CamaraJugador");
-        for (int i = 0; i < CamarasJugadores.Length; i++)
+        for (int i = 0; i < CamarasJugadores.Count; i++)
         {
-            CamarasJugadores[i].SetActive(true);
-            CamarasJugadores[i].GetComponent<Camera>().enabled = true;
+            if (CamarasJugadores[i] != null)
+            {
+                CamarasJugadores[i].SetActive(true);
+                CamarasJugadores[i].GetComponent<Camera>().enabled = true;
 
-            if (i == 0) //Camara P1
-                CamarasJugadores[0].GetComponent<Camera>().rect = new Rect(0f, 0.5f, 0.33f, 0.5f);
-            if (i == 1) //Camara P2
-                CamarasJugadores[1].GetComponent<Camera>().rect = new Rect(0.335f, 0.5f, 0.33f, 0.5f);
-            if (i == 2) //Camara P3
-                CamarasJugadores[2].GetComponent<Camera>().rect = new Rect(0.67f, 0.5f, 0.33f, 0.5f);
-            if (i == 3) //Camara P4
-                CamarasJugadores[3].GetComponent<Camera>().rect = new Rect(0f, 0f, 0.33f, 0.5f);
-            if (i == 4) //Camara P5
-                CamarasJugadores[4].GetComponent<Camera>().rect = new Rect(0.335f, 0f, 0.33f, 0.5f);
-            if (i == 5) //Camara P6
-                CamarasJugadores[5].GetComponent<Camera>().rect = new Rect(0.67f, 0f, 0.33f, 0.5f);
+                if (i == 0) CamarasJugadores[i].GetComponent<Camera>().rect = new Rect(0f, 0.5f, 0.33f, 0.5f);
+                if (i == 1) CamarasJugadores[i].GetComponent<Camera>().rect = new Rect(0.335f, 0.5f, 0.33f, 0.5f);
+                if (i == 2) CamarasJugadores[i].GetComponent<Camera>().rect = new Rect(0.67f, 0.5f, 0.33f, 0.5f);
+                if (i == 3) CamarasJugadores[i].GetComponent<Camera>().rect = new Rect(0f, 0f, 0.33f, 0.5f);
+                if (i == 4) CamarasJugadores[i].GetComponent<Camera>().rect = new Rect(0.335f, 0f, 0.33f, 0.5f);
+                if (i == 5) CamarasJugadores[i].GetComponent<Camera>().rect = new Rect(0.67f, 0f, 0.33f, 0.5f);
+            }
         }
-        //PONER UNA IMAGEN CON 6 FONDOS NEGROS (NO PLAYER)
     }
 
     public void DesCamaraJugadores()
     {
         status = false;
 
-        CamarasJugadores = GameObject.FindGameObjectsWithTag("CamaraJugador");
-        for (int i = 0; i < CamarasJugadores.Length; i++)
+        for (int i = 0; i < CamarasJugadores.Count; i++)
         {
-            CamarasJugadores[i].SetActive(false);
-            CamarasJugadores[i].GetComponent<Camera>().enabled = false;
+            if (CamarasJugadores[i] != null)
+            {
+                CamarasJugadores[i].SetActive(false);
+                CamarasJugadores[i].GetComponent<Camera>().enabled = false;
+            }
         }
     }
 }

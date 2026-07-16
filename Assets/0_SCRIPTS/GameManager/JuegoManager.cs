@@ -49,7 +49,7 @@ public class JuegoManager : NetworkBehaviour
     [SerializeField]
     private bool jugando;
     [SerializeField]
-    private GameObject BotonStop;
+    private StopPartida2 BotonStop;
     [SerializeField]
     private int Jugadores;
     [SerializeField]
@@ -180,10 +180,6 @@ public class JuegoManager : NetworkBehaviour
     [SerializeField]
     private GameObject ZonaUnicacionL6_1, ZonaUnicacionL6_2;
     public int PlayersUbicadosL6_1, PlayersUbicadosL6_2;
-
-        [Header("--------FINAL PRIMERA PARTE--------")]
-    [SyncVar]
-    public bool ActContinuara;
 
     [Header("LEVEL 7 - TRAMPAS PINCHOS")]
     [SerializeField]
@@ -362,6 +358,8 @@ public class JuegoManager : NetworkBehaviour
                     GameOverServidor.SetActive(true); //SCORE EN SERVIDOR
                 // GRABA B.D. 1 VEZ
                 GrabaBD.GetComponent<GrabaBd>().GrabaDatosBd();
+
+                BotonStop.ApagarServidorEn150Segundos();
             }
         }
         if (TiempoPartida <= 0)
@@ -378,6 +376,8 @@ public class JuegoManager : NetworkBehaviour
                     GameOverServidor.SetActive(true); //SCORE EN SERVIDOR
                 // GRABA B.D. 1 VEZ
                 GrabaBD.GetComponent<GrabaBd>().GrabaDatosBd();
+
+                BotonStop.ApagarServidorEn150Segundos();
             }
         }
         manager();
@@ -1223,7 +1223,7 @@ public class JuegoManager : NetworkBehaviour
 
                     trigZU6_2 = true;
 
-                    MsjServerToPlayers = 2; //REUBICACION
+                    //MsjServerToPlayers = 2; //REUBICACION
 
                     for (int i = 0; i < PlayersEnJuego.Length; i++)
                     {
@@ -1241,13 +1241,16 @@ public class JuegoManager : NetworkBehaviour
                     ZonaUnicacionL6_2.SetActive(false);
                     RpcUbicacionSetActive(62, false);
 
-                    ////////////////////////////////////////////////////////////////////////////////// AQUI VA EL CONTINUARÁ
-                    ActContinuara = true;
-
                     for (int i = 0; i < PlayersEnJuego.Length; i++)
                     {
                         PlayersEnJuego[i].GetComponentInParent<Player>().FadeInFadeOut = true;
                     }
+
+                    RpcLevels(99);
+
+                    MsjServerToPlayers = 16; // JUEGO COMPLETADO CON EXITO
+
+                    JuegoCompletado = true;
 
                     //ActLevel7 = true;
                 }
@@ -2378,6 +2381,28 @@ public class JuegoManager : NetworkBehaviour
             L11.SetActive(false);
             L12.SetActive(false);
             L13.SetActive(true);
+            LimitesRectangular.SetActive(true);
+            LimitesCircular.SetActive(false);
+            PlataformaCircular.SetActive(false);
+            PlataformaRectangular.SetActive(false);
+            Helicoptero.SetActive(false);
+        }
+        if (L == 99)
+        {
+            L0.SetActive(false);
+            L1.SetActive(false);
+            L2.SetActive(false);
+            L3.SetActive(false);
+            L4.SetActive(false);
+            L5.SetActive(false);
+            L6.SetActive(false);
+            L7.SetActive(false);
+            L8.SetActive(false);
+            L9.SetActive(false);
+            L10.SetActive(false);
+            L11.SetActive(false);
+            L12.SetActive(false);
+            L13.SetActive(false);
             LimitesRectangular.SetActive(true);
             LimitesCircular.SetActive(false);
             PlataformaCircular.SetActive(false);
